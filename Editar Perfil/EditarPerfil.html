@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Página de Editar Perfil</title>
+    <link rel="stylesheet" type="text/css" href="../Cadastro/assets/style.css">
+    <!-- <link rel="stylesheet" href="../Perfil/assets/style.css"> -->
+    <!-- <link rel="stylesheet" href="../Perfil/assets/modal.css"> -->
+</head>
+
+<body>
+    <div class="appbar">
+        <div class="nomeLogo">
+            <img src="../Cadastro/assets/img/logoCjr2.png" class="logo">
+        </div>
+        <div class="NomeEFoto">
+            <a class="editar-perfil-name" href="#">Fulano</a>
+            <a href="" class="a-img"><img id="imagemPerfil1" class="img-person-bar"
+                    src="../Cadastro/assets/img/UserProfile.svg" alt="foto de perfil"></a>
+            <a href="" class="a-img"><img class="img-logOut" src="../Perfil/assets/img/log-out.svg"
+                    alt="icone de log-out"></a>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <img src="../Cadastro/assets/img/LOGOCadastro.svg" alt="LogoGrande" width="700" height="300">
+    </div>
+
+    <div class="login-formCadastro">
+        <div class="imagemPerfilContainer">
+            <img id="imagemPerfil" class="imgftologincadastro" src="../Cadastro/assets/img/UserProfile.svg"
+                alt="Foto de Login" width="220" height="170">
+            <input type="file" id="seletorDeArquivo" style="display: none;">
+        </div>
+        <form>
+            <div class="input-iconeCad">
+                <input type="text" placeholder="Email" required style="padding-left: 60px;">
+            </div>
+            <div class="input-iconeCad">
+                <input type="password" placeholder="Senha" required style="padding-left: 60px;">
+            </div>
+            <div class="input-iconeCad">
+                <input type="text" placeholder="Nome" required style="padding-left: 60px;">
+            </div>
+            <div class="input-iconeCad">
+                <input type="text" placeholder="Gênero" required style="padding-left: 60px;">
+            </div>
+            <div class="input-iconeCad">
+                <input type="text" placeholder="Cargo" required style="padding-left: 60px;">
+            </div>
+            <input type="submit" value="Atualizar">
+        </form>
+    </div>
+    <script src="
+    https://cdn.jsdelivr.net/npm/markdown-it@13.0.2/dist/markdown-it.min.js
+    "></script>
+
+    <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+    <script src="../Cadastro/js/mainPerfil.js"></script>
+</body>
+
+</html>
